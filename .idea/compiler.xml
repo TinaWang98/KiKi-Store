@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kikistore-order" />
+        <module name="kikistore-member" />
+        <module name="kikistore-product" />
+        <module name="kikistore-coupon" />
+        <module name="kikistore-ware" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="KiKi-Store" target="1.5" />
+      <module name="kikistore-coupon" target="11" />
+      <module name="kikistore-member" target="11" />
+      <module name="kikistore-order" target="11" />
+      <module name="kikistore-product" target="11" />
+      <module name="kikistore-ware" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kikistore-coupon" options="-parameters" />
+      <module name="kikistore-member" options="-parameters" />
+      <module name="kikistore-order" options="-parameters" />
+      <module name="kikistore-product" options="-parameters" />
+      <module name="kikistore-ware" options="-parameters" />
+    </option>
+  </component>
+</project>

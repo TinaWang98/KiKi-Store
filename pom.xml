@@ -5,6 +5,13 @@
     <groupId>com.kiki.kikistore</groupId>
     <artifactId>kikistore</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>2.6.1</version>
+        </dependency>
+    </dependencies>
     <name>kikistore</name>
     <description>grouped service</description>
     <packaging>pom</packaging>
@@ -14,6 +21,9 @@
         <module>kikistore-member</module>
         <module>kikistore-order</module>
         <module>kikistore-product</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>kikistore-common</module>
     </modules>
 
 </project>

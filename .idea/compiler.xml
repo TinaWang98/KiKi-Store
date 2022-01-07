@@ -7,19 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kikistore-order" />
+        <module name="kikistore-coupon" />
+        <module name="kikistore-common" />
+        <module name="kikistore-ware" />
+        <module name="renren-fast" />
         <module name="kikistore-member" />
         <module name="kikistore-product" />
-        <module name="kikistore-coupon" />
-        <module name="kikistore-ware" />
+        <module name="renren-generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="KiKi-Store" target="1.5" />
+      <module name="kikistore-common" target="15" />
       <module name="kikistore-coupon" target="11" />
       <module name="kikistore-member" target="11" />
       <module name="kikistore-order" target="11" />
       <module name="kikistore-product" target="11" />
       <module name="kikistore-ware" target="11" />
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +35,8 @@
       <module name="kikistore-order" options="-parameters" />
       <module name="kikistore-product" options="-parameters" />
       <module name="kikistore-ware" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
     </option>
   </component>
 </project>

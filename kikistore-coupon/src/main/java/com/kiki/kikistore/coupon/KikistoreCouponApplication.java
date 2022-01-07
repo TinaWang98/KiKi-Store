@@ -8,6 +8,6 @@ public class KikistoreCouponApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(KikistoreCouponApplication.class, args);
-    }
 
+    }
 }
